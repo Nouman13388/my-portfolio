@@ -10,7 +10,6 @@ import Projects from './components/sections/Projects';
 
 const Body = styled.div`
   background-color: ${({ theme }) => theme.bg};
-  color: ${({ theme }) => theme.text_primary};
   width: 100%;
   overflow-x: hidden;
   position: relative;

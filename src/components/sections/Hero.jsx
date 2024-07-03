@@ -125,6 +125,7 @@ const ResumeButton = styled.a`
     -moz-appearance: button;
     appearance: button;
     text-decoration: none;
+    color: ${({ theme }) => theme.text_primary};
 
     width: 95%;
     max-width: 300px;
@@ -219,7 +220,7 @@ const Hero = () => {
                   <motion.div {...headContentAnimation}>
                   <SubTitle>{Bio.description}</SubTitle>
                   </motion.div>
-                  <ResumeButton>Check Resume</ResumeButton>
+                  <ResumeButton href="https://drive.google.com/file/d/1OVXvgdarNtlMLwoqKJFyHJJO8XPPnpd7/view?usp=drive_link" target="_blank">Check Resume</ResumeButton>
                 </HeroLeftContainer>
                 <HeroRightContainer>
                     <motion.div {...headContentAnimation}>
