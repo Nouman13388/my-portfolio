@@ -37,6 +37,7 @@ const Tags = styled.div`
   flex-wrap: wrap;
   gap: 8px;
   margin-top: 4px;
+  color: ${({ theme }) => theme.text_secondary};
 `;
 
 const Details = styled.div`
@@ -93,7 +94,11 @@ const ProjectCard = ({project}) => {
   return (
     <Card>
         <Image src={project.image} alt={project.title} />
-        <Tags></Tags>
+        <Tags>
+            {project.tags.map((tag, index) => (
+                <div key={index} className="tag">{tag}</div>
+            ))}
+        </Tags>
         <Details>
             <Title>{project.title}</Title>
             <Date>{project.date}</Date>

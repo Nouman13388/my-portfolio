@@ -169,26 +169,6 @@ export const skills = [
   },
 ];
 
-// export const experiences = [
-//   {
-//     id: 0,
-//     img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/neurobit.jpeg?alt=media&token=1cacbb7b-e5ea-4efb-9b3d-f5a31b9564ad",
-//     role: "Frontend Engineer Intern",
-//     company: "Neurobit",
-//     date: "June 2023 - Nov 2023",
-//     desc: "Enhanced user experiences on Neurobit PSG & Hybrid, Portals by resolving bugs & reduced load time by 40%. Built Neurobit Analytics portal using React Js with seamless interaction of REST APIs using AXIOS optimized with React Query. Refactored previous code to TypeScript, updated with new dependency and integrated Vite with Jest for Unit Testing.",
-//     skills: [
-//       "ReactJS",
-//       "Redux",
-//       "NodeJs",
-//       "Material UI",
-//       "HTML",
-//       "CSS",
-//       "JavaScript",
-//     ],
-//     doc: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/Screenshot%20from%202024-01-25%2022-38-31.png?alt=media&token=2785903f-1a4e-41f5-afd2-6adcfe56d058",
-//   },
-// ];
 
 export const education = [
   {
