@@ -220,12 +220,12 @@ const Hero = () => {
                   <motion.div {...headContentAnimation}>
                   <SubTitle>{Bio.description}</SubTitle>
                   </motion.div>
-                  <ResumeButton href="https://drive.google.com/file/d/1lI72vLA17cwdnXYFsUqk3dH_rKDZR1Oh/view?usp=drive_link" target="_blank">Check Resume</ResumeButton>
+                  <ResumeButton href="https://drive.google.com/file/d/1Q5R2W6SN6N--GiwDYbBPzLX83Ea1qSpF/view?usp=sharing" target="_blank">Check Resume</ResumeButton>
                 </HeroLeftContainer>
                 <HeroRightContainer>
                     <motion.div {...headContentAnimation}>
                     <Tilt>
-                    <Img src={HeroImage} alt="Muneeb Asif" />
+                    <Img src={HeroImage} alt="Muhammad Nouman" />
                     </Tilt>
                     </motion.div>
                 </HeroRightContainer>
